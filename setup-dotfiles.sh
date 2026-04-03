@@ -68,6 +68,9 @@ export EDITOR='nvim'
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
+# Zoxide initialization
+eval "$(zoxide init zsh)"
+
 # Aliases
 alias vim='nvim'
 alias cat='bat'
