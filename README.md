@@ -35,7 +35,7 @@ Automated setup script for macOS Ghostty terminal with Oh My Zsh, Starship, tmux
 - `Ctrl+a |` - split pane horizontally
 - `Ctrl+a -` - split pane vertically
 - `Ctrl+a r` - reload tmux config
-- `Alt+Arrow keys` - switch panes
+- `Ctrl+a + Arrow keys` - switch panes (Left/Right/Up/Down)
 
 ### Aliases
 - `cd <dir>` → zoxide (smart directory navigation)

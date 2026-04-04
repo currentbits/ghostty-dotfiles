@@ -279,11 +279,11 @@ unbind %
 # Reload config
 bind r source-file ~/.tmux.conf \; display "Reloaded config!"
 
-# Switch panes using Alt-arrow keys
-bind -n M-Left select-pane -L
-bind -n M-Right select-pane -R
-bind -n M-Up select-pane -U
-bind -n M-Down select-pane -D
+# Switch panes using prefix + arrow keys
+bind Left select-pane -L
+bind Right select-pane -R
+bind Up select-pane -U
+bind Down select-pane -D
 
 # Enable mouse mode
 set -g mouse on
