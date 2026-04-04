@@ -68,8 +68,6 @@ export EDITOR='nvim'
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-# Zoxide initialization
-eval "$(zoxide init zsh)"
 
 # Aliases
 alias vim='nvim'
@@ -87,7 +85,9 @@ export FZF_DEFAULT_OPTS='
 '
 
 # Starship initialization
-eval "$(starship init zsh)"
+# Zoxide initialization (must be at end of shell config)
+eval "$(zoxide init zsh)"
+
 
 # Thefuck alias
 eval $(thefuck --alias)
